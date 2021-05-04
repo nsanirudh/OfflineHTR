@@ -21,8 +21,8 @@ src = st.sidebar.selectbox("From Language", ['English','Assamesse', 'Bihari','Bh
                                              'Marathi', 'Nagpuri', 'Tamil', 'Telugu', 'Urdu'])
 
 
-helper = {'English':'en', 'Assamesse':'as', 'Bihari':'bh', 'Bhojpuri':'bho', 'Bengali':'bn', 'Hindi':'hi', 'Maithili':'mai',
-          'Marathi':'mr','Nagpuri':'sck', 'Tamil':'ta', 'Telugu':'te', 'Urdu':'ur'}
+helper = {'English':'en', 'Assamesse':'as', 'Bihari':'bh', 'Bhojpuri':'bho', 'Bengali':'bn', 'Hindi':'hi',
+          'Maithili':'mai', 'Marathi':'mr','Nagpuri':'sck', 'Tamil':'ta', 'Telugu':'te', 'Urdu':'ur'}
 # dst = helper[destination]
 source = helper[src]
 
