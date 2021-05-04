@@ -20,11 +20,6 @@ st.sidebar.subheader('Select...')
 src = st.sidebar.selectbox("From Language", ['English','Assamesse', 'Bihari','Bhojpuri', 'Bengali', 'Hindi', 'Maithili',
                                              'Marathi', 'Nagpuri', 'Tamil', 'Telugu', 'Urdu'])
 
-# st.sidebar.subheader('Select...')
-# destination = st.sidebar.selectbox("To Language", ['Afrikaans', 'Arabic', 'Swahili', 'English'])
-#
-# st.sidebar.subheader("Enter Text")
-# area = st.sidebar.text_area("Auto Detection Enabled", "")
 
 helper = {'English':'en', 'Assamesse':'as', 'Bihari':'bh', 'Bhojpuri':'bho', 'Bengali':'bn', 'Hindi':'hi', 'Maithili':'mai',
           'Marathi':'mr','Nagpuri':'sck', 'Tamil':'ta', 'Telugu':'te', 'Urdu':'ur'}
