@@ -26,15 +26,6 @@ helper = {'English':'en', 'Assamesse':'as', 'Bihari':'bh', 'Bhojpuri':'bho', 'Be
 # dst = helper[destination]
 source = helper[src]
 
-# if st.sidebar.button("Translate!"):
-#     if len(area) != 0:
-#         sour = translator.detect(area).lang
-#         answer = translator.translate(area, src=f'{sour}', dest=f'{dst}').text
-#         # st.sidebar.text('Answer')
-#         st.sidebar.text_area("Answer", answer)
-#         st.balloons()
-#     else:
-#         st.sidebar.subheader('Enter Text!')
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title('Megdap Offline Handwriting Recognition')
