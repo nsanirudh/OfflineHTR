@@ -1,7 +1,5 @@
 import streamlit as st
 import easyocr
-from googletrans import Translator
-from gtts import gTTS
 import pyttsx3
 from PIL import Image
 import cv2
